@@ -1,0 +1,35 @@
+{
+  "name": "pbo/pbomlparser",
+  "description": "A simple PHP package to parse PBOML",
+  "keywords": [
+    "php",
+    "PBOML",
+    "package"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mohammed Elhasnaoui",
+      "email": "mohammed.elhasnaoui@parl.gc.ca"
+    }
+  ],
+  "require": {
+    "php": "^8.3.0",
+    "consoletvs/charts": "^6.7",
+    "illuminate/support": "^11.35",
+    "league/commonmark": "^2.6",
+    "symfony/yaml": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PBO\\PbomlParser\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist"
+  }
+}
