@@ -16,8 +16,6 @@
   ],
   "require": {
     "php": "^8.3.0",
-    "consoletvs/charts": "^6.7",
-    "illuminate/support": "^11.35",
     "league/commonmark": "^2.6",
     "symfony/yaml": "^7.2"
   },
