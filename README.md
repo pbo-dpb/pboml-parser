@@ -46,8 +46,16 @@ The library supports various content types including:
 
 ### Installation
 
+To install the PBOML Parser library, run the following command:
+
 ```bash
 composer require pbo/pboml-parser
+```
+
+If that doesn't work, simply run to update your packages:
+
+```bash
+composer update
 ```
 
 ### Basic Usage
@@ -253,9 +261,16 @@ La bibliothèque prend en charge divers types de contenu, notamment:
 - Extension libxml
 
 ### Installation
+Pour installer la bibliothèque PBOML Parser, exécutez la commande suivante :
 
 ```bash
 composer require pbo/pboml-parser
+```
+
+Si cela ne marche pas, exécutez simplement pour mettre à jour vos packages :
+
+```bash
+composer update
 ```
 
 ### Utilisation de base
